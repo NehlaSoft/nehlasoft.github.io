@@ -12,10 +12,12 @@
       content="برنامج لرصد النقاط وتطبيق الملاحظات لملف الرقمنة الخاص بالتعليم المتوسط"
     />
     <link rel="icon" type="image/png" href="./img/logo.png" />
-    <title>NoteProgM Updates</title>
+    <title>NoteProgM - NehlaSoft</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Carlito&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Carlito&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -38,7 +40,7 @@
   <body>
     <nav>
       <div class="logo-image">
-        <img src="./img/navbar-logo.svg" alt="NoteProgM Logo" loading="lazy" />
+        <img src="./img/logo2.png" alt="NoteProgM Logo" loading="lazy" />
       </div>
       <div class="nav-links">
         <div class="nav-item">
@@ -61,10 +63,10 @@
           </div>
         </div>
         <div class="nav-item">
-          <a href="#">من نحن</a>
+          <a href="about.html">من نحن</a>
         </div>
         <div class="nav-item">
-          <a href="#">اتصل بنا</a>
+          <a href="contact.html">اتصل بنا</a>
         </div>
       </div>
       <div
@@ -77,48 +79,89 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="header">
-        <h2 class="title-center-height">تحديثات برنامج NoteProgM</h2>
+    <main class="container">
+      <header class="hero-section fade-in-up">
+        <div class="hero-content">
+          <h1 class="hero-title">تحديثات برنامج NoteProgM</h1>
+          <p class="hero-subtitle">الحل الأمثل لرصد النقاط وتسيير الملاحظات</p>
+        </div>
         <div class="project-image">
           <img src="./img/logo.png" alt="NoteProgM Logo" loading="lazy" />
         </div>
-      </div>
+      </header>
 
-      <div class="content">
+      <section class="content fade-in-up delay-1">
         <div class="project-card">
-          <h2 class="title">NoteProgM v1.0.0 Trial</h2>
-          <h4>يمكنك من خلال هذا البرنامج</h4>
-          <ol class="line-p">
+          <div class="card-header">
+            <h2 class="title">NoteProgM v1.0.0 Trial</h2>
+            <span class="badge">تجريبي</span>
+          </div>
+          <h4>يمكنك من خلال هذا البرنامج:</h4>
+          <ul class="feature-list">
             <li>
+              <span class="icon">✅</span>
               تحميل ملف الإكسل فارغًا ثم رصد النقاط مع تطبيق التقديرات آليًا.
             </li>
-            <li>إعادة تحميل الملف لتعديل النقاط عند الحاجة.</li>
-            <li>تغيير اتجاه الرصد (عمودي أو أفقي).</li>
-            <li>تغيير نوع وحجم الخط.</li>
-            <li>تعديل مجال ولغة التقديرات.</li>
-            <li>إمكانية التراجع عند حدوث خطأ.</li>
-            <li>اكتشاف وتصحيح الأخطاء.</li>
-            <li>حفظ التغييرات بسهولة.</li>
-            <li>طباعة وثيقة المراقبة.</li>
-          </ol>
-          <a
-            href="https://github.com/NehlaSoft/NoteProgM/releases/download/v1.0.0/NoteProgM_Free_v1.0.0_Setup.exe"
-            class="main-btn"
-            >Download NoteProgM v1.0.0 Trial</a
-          >
+            <li>
+              <span class="icon">🔄</span>
+              إعادة تحميل الملف لتعديل النقاط عند الحاجة.
+            </li>
+            <li>
+              <span class="icon">↔️</span>
+              تغيير اتجاه الرصد (عمودي أو أفقي).
+            </li>
+            <li>
+              <span class="icon">🔠</span>
+              تغيير نوع وحجم الخط.
+            </li>
+            <li>
+              <span class="icon">🌐</span>
+              تعديل مجال ولغة التقديرات.
+            </li>
+            <li>
+              <span class="icon">↩️</span>
+              إمكانية التراجع عند حدوث خطأ.
+            </li>
+            <li>
+              <span class="icon">🛠️</span>
+              اكتشاف وتصحيح الأخطاء.
+            </li>
+            <li>
+              <span class="icon">💾</span>
+              حفظ التغييرات بسهولة.
+            </li>
+            <li>
+              <span class="icon">🖨️</span>
+              طباعة وثيقة المراقبة.
+            </li>
+          </ul>
+          <div class="action-buttons">
+            <a
+              href="https://github.com/NehlaSoft/NoteProgM/releases/download/v1.0.0/NoteProgM_Free_v1.0.0_Setup.exe"
+              class="main-btn"
+            >
+              <span class="btn-icon">⬇️</span>
+              تحميل البرنامج (v1.0.0)
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+           <a href="privacy-policy.html">سياسة الخصوصية</a>
+           <a href="terms-of-use.html">اتفاقية الإستخدام</a>
+        </div>
+        <h4>جميع الحقوق محفوظة &copy; 2025 NehlaSoft</h4>
+        <div class="social-media">
+          <a href="#" aria-label="Facebook"><img src="./img/facebook.svg" alt="Facebook" loading="lazy" /></a>
+          <a href="#" aria-label="YouTube"><img src="./img/youtube.svg" alt="YouTube" loading="lazy" /></a>
+          <a href="#" aria-label="Twitter"><img src="./img/twitter-x.svg" alt="Twitter" loading="lazy" /></a>
         </div>
       </div>
-    </div>
-
-    <div class="footer">
-      <h4>جميع الحقوق محفوظة &copy 2025 NehlaSoft</h4>
-      <div class="social-media">
-        <img src="./img/facebook.svg" alt="NoteProgM Logo" loading="lazy" />
-        <img src="./img/youtube.svg" alt="NoteProgM Logo" loading="lazy" />
-        <img src="./img/twitter-x.svg" alt="NoteProgM Logo" loading="lazy" />
-      </div>
-    </div>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>

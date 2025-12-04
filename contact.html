@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="keywords"
-      content="التعليم,المتوسط,الرقمنة,كتابة,نقاط,ملاحظات,ارشادات,تلقائيا,الجزائر"
+      content="اتصل بنا, NehlaSoft, دعم فني, استفسارات"
     />
     <link rel="icon" type="image/png" href="./img/logo.png" />
-    <title>NoteProgM Updates - NehlaSoft</title>
+    <title>اتصل بنا - NehlaSoft</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -64,58 +64,74 @@
     <main class="container">
       <header class="hero-section fade-in-up">
         <div class="hero-content">
-          <h1 class="hero-title">تحديثات برنامج NoteProgM</h1>
-          <p class="hero-subtitle">اختر النسخة المناسبة لاحتياجاتك</p>
+          <h1 class="hero-title">اتصل بنا</h1>
+          <p class="hero-subtitle">نحن هنا للإجابة على استفساراتكم ومساعدتكم</p>
         </div>
         <div class="project-image">
-          <img src="./img/logo.png" alt="NoteProgM Logo" loading="lazy" />
+          <img src="./img/logo.png" alt="NehlaSoft Logo" loading="lazy" />
         </div>
       </header>
 
-      <div class="cards-grid fade-in-up delay-1">
-        <!-- Free Version -->
-        <div class="project-card">
-          <div class="card-header">
-            <h2 class="title">NoteProgM v1.0.0 Free</h2>
-            <span class="badge" style="background: var(--text-light)">مجاني</span>
+      <section class="content fade-in-up delay-1">
+        <div class="cards-grid">
+          <!-- Contact Info -->
+          <div class="project-card">
+            <div class="card-header">
+              <h2 class="title">معلومات التواصل</h2>
+            </div>
+            <ul class="feature-list" style="grid-template-columns: 1fr;">
+              <li>
+                <span class="icon">📧</span>
+                <div>
+                  <strong>البريد الإلكتروني:</strong>
+                  <br>
+                  <a href="mailto:contact@nehlasoft.com" style="color: var(--primary-color);">contact@nehlasoft.com</a>
+                </div>
+              </li>
+              <li>
+                <span class="icon">📱</span>
+                <div>
+                  <strong>مواقع التواصل:</strong>
+                  <br>
+                  تابعنا على فيسبوك وتويتر للحصول على آخر التحديثات.
+                </div>
+              </li>
+              <li>
+                <span class="icon">📍</span>
+                <div>
+                  <strong>الموقع:</strong>
+                  <br>
+                  الجزائر
+                </div>
+              </li>
+            </ul>
           </div>
-          <h4>يمكنك من خلال هذا البرنامج:</h4>
-          <ul class="feature-list">
-            <li><span class="icon">✅</span> تحميل ملف الإكسل فارغًا ورصد النقاط.</li>
-            <li><span class="icon">🔄</span> إعادة تحميل الملف لتعديل النقاط.</li>
-            <li><span class="icon">↔️</span> تغيير اتجاه الرصد (عمودي/أفقي).</li>
-            <li><span class="icon">🔠</span> تغيير نوع وحجم الخط.</li>
-            <li><span class="icon">🌐</span> تعديل مجال ولغة التقديرات.</li>
-            <li><span class="icon">↩️</span> إمكانية التراجع وتصحيح الأخطاء.</li>
-            <li><span class="icon">💾</span> حفظ التغييرات وطباعة الوثيقة.</li>
-          </ul>
-          <div class="action-buttons">
-            <a href="#" class="main-btn">
-              <span class="btn-icon">⬇️</span> تحميل النسخة المجانية
-            </a>
-          </div>
-        </div>
 
-        <!-- Pro Version -->
-        <div class="project-card" style="border: 2px solid #f6d365">
-          <div class="card-header">
-            <h2 class="title">NoteProgM v1.0.0 Pro</h2>
-            <span class="badge">مدفوع</span>
-          </div>
-          <h4>كل مميزات النسخة المجانية بالإضافة إلى:</h4>
-          <ul class="feature-list">
-            <li><span class="icon">🚀</span> سرعة أداء أعلى.</li>
-            <li><span class="icon">💎</span> مميزات حصرية إضافية.</li>
-            <li><span class="icon">👨‍💻</span> دعم فني مباشر.</li>
-            <li><span class="icon">🔄</span> تحديثات تلقائية.</li>
-          </ul>
-          <div class="action-buttons">
-            <a href="#" class="main-btn btn-pro">
-              <span class="btn-icon">⭐</span> تحميل النسخة الكاملة
-            </a>
+          <!-- Contact Form -->
+          <div class="project-card">
+            <div class="card-header">
+              <h2 class="title">أرسل لنا رسالة</h2>
+            </div>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">الاسم الكامل</label>
+                <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+              </div>
+              <div class="form-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" required placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" rows="5" required placeholder="اكتب رسالتك هنا..."></textarea>
+              </div>
+              <button type="submit" class="main-btn" style="width: 100%; justify-content: center; border: none; cursor: pointer;">
+                إرسال الرسالة
+              </button>
+            </form>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class="footer">
